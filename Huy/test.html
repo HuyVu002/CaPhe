@@ -3,31 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coffee</title>
+    <title>Thực đơn Cà Phê</title>
     <style>
-        body{
-            width: 50%;
-            margin: auto;
-            box-sizing: border-box;
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8f8f8;
         }
-        .container{
 
-        }img{
-            width: 400px;
-            height: auto;
-            margin: 20px;
+        .menu-container {
+            width: 300px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
         }
-        .inline-div {
-            display: inline-block;
-            width: 30%; /* Điều chỉnh chiều rộng của mỗi div nếu cần thiết */
-            box-sizing: border-box; /* Để tránh sự thay đổi kích thước khi thêm padding và border */
-            border: 1px solid #ccc; /* Để dễ nhận biết đường viền giữa hai div */
-            padding: 10px; /* Thêm padding nếu cần thiết */
-            }
+
+        .coffee-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px dashed #ccc;
+        }
+
+        .coffee-name {
+            font-weight: bold;
+        }
+
+        .price {
+            color: #6e6e6e;
+        }
     </style>
 </head>
 <body>
-    <div class="inline-div"><img src="Image/xofa-cafe-footer-2.jpg"></div>
-    <div class="inline-div">Div 2 content</div>
+    <div class="menu-container">
+        <div class="coffee-item">
+            <span class="coffee-name">Cà Phê Espresso</span>
+            <span class="price">$2.50</span>
+        </div>
+        <div class="coffee-item">
+            <span class="coffee-name">Cà Phê Latte</span>
+            <span class="price">$3.00</span>
+        </div>
+        <div class="coffee-item">
+            <span class="coffee-name">Cà Phê Americano</span>
+            <span class="price">$2.75</span>
+        </div>
+        <!-- Thêm các mục cà phê khác tại đây -->
+    </div>
 </body>
 </html>

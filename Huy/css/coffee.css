@@ -1,19 +1,91 @@
-*{
+body {
     margin: 0;
     padding: 0;
-    font-family: "Roboto",sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    height: auto;
 }
 
-header{
-    width: 100vw;
-    height: 303px;
-    background: url(https://wallpapers.com/images/hd/coffee-background-mxi5tjwxedm9bx0r.jpg);
+.container {
+    width: 60%;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
 }
-header img{
-    width:100px;
-    height:auto;
+
+.box1 {
+    width: 100%;
+    margin-bottom:10px;
+    background-image: url('https://www.shutterstock.com/image-photo/warm-cup-coffee-on-brown-600nw-71579551.jpg'); /* Thay 'link_to_your_image.jpg' bằng đường link đến ảnh của bạn */
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: left center;
+    color: #141414; 
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    position: relative; /* Cho phép sử dụng position: absolute cho .logo */
 }
-.container{
-    width: 980px;
-    margin: 0 auto;
+.logo {
+    position: absolute;
+    transform: rotate(-40deg) translateX(50%);
+    top: -40px;
+    left: -150px;
+    width: 200px; /* Điều chỉnh kích thước của logo theo ý muốn */
+    height: auto; /* Giữ tỷ lệ khích thước của logo */
 }
+.text-left{
+    position: absolute;
+    top: 155px;
+    left: 40px;
+}
+.text-right{
+    position: absolute;
+    top: 155px;
+    right: 850px;
+}
+
+.menu {
+    width: 48%; /* 50% - 2% margin for spacing */
+    /* background-color: #ededed; */
+    /* padding: 10px; */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.box2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 48%; /* 50% - 2% margin for spacing */
+    background-color: #fefefe;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.coffee-item {
+    margin:8px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px dashed #ccc;
+}
+.coffee-name {
+    font-weight: bold;
+}
+
+.price {
+    color: #9b7a54;
+    font-weight: 700;
+}
+
