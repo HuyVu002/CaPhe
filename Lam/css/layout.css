@@ -5,11 +5,9 @@
 }
 body{
     background-color: #fafafa;
-    font-size: 14px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    line-height: 1.35;
 }
+
 .section_nav{
     position: relative;
     text-align: center;
@@ -24,20 +22,118 @@ body{
 .overlay-text-up {  
     position: absolute;
     top: 80px;
-    left: 50%;
+    left: 49%;
     transform: translate(-50%, -50%);
     text-decoration: none;
     font-weight: 300;
     font-size: 20px;
     color: rgb(24, 148, 20);
 }
-
 .overlay-text-down {
     position: absolute;
-    top: 130px;
-    left: 50%;
+    top: 145px;
+    left: 49%;
     transform: translate(-50%, -50%);
-    color: black;
+    color: rgba(53, 33, 7, 0.89);
     font-weight: bold;
     font-size: 40px;
+    width: 100%;
+}
+.section_div{
+    margin-top: 20px;
+    text-align: center;
+}
+.text1{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(24, 148, 20);
+}
+.text2{
+    margin: 20px 0 40px 0;
+    color: rgba(53, 33, 7, 0.89);
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.contact_us{
+    text-align: center;
+}
+.icon1{
+    border: 1px solid rgb(158, 106, 9);
+    height: 120px;
+    width: 120px;
+    margin: auto;
+}
+.icon1:hover{
+    background-color: rgb(158, 106, 9);
+}
+.icon1>a>i{
+    margin: auto;
+    margin-top: 13px;
+    font-size: 50px;
+    color: rgb(158, 106, 9);
+}
+.icon1>a>i:hover{
+    color:white
+}
+.icon2{
+    border: 1px solid green;
+    height: 80px;
+    width: 80px;
+    margin: auto;
+}
+.icon2:hover{
+    background-color: green;
+}
+.icon2>a>i{
+    margin: auto;
+    margin-top: 13px;
+    font-size: 50px;
+    color: green;
+}
+.icon2>a>i:hover{
+    color: white;
+}
+
+
+@media screen and (max-width: 1400px){
+    body{
+        width: 100%;
+    }
+    .mobile-show{
+        display: none;
+    }
+}
+@media screen and (max-width: 1200px){
+    body{
+        width: 100%;
+    }
+    .mobile-show{
+        display: none;
+    }
+}
+@media screen and (max-width: 992px) {
+    body{
+        width: 100%;
+    }
+    .mobile-show{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px){
+    body{
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .section_main{
+        width: 100%;
+    }
+    .mobile-hide{
+        display: none;
+    }
+    .mobile-show{
+        display: block;
+    }
 }
