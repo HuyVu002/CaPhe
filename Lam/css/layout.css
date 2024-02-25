@@ -61,8 +61,8 @@ body{
 }
 .icon1{
     border: 1px solid rgb(158, 106, 9);
-    height: 120px;
-    width: 120px;
+    height: 80px;
+    width: 80px;
     margin: auto;
 }
 .icon1:hover{
