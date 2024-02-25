@@ -61,8 +61,8 @@ body{
 }
 .icon1{
     border: 1px solid rgb(158, 106, 9);
-    height: 80px;
-    width: 80px;
+    height: 120px;
+    width: 120px;
     margin: auto;
 }
 .icon1:hover{
@@ -70,7 +70,7 @@ body{
 }
 .icon1>a>i{
     margin: auto;
-    margin-top: 13px;
+    margin-top: 30px;
     font-size: 50px;
     color: rgb(158, 106, 9);
 }
@@ -79,8 +79,8 @@ body{
 }
 .icon2{
     border: 1px solid green;
-    height: 80px;
-    width: 80px;
+    height: 120px;
+    width: 120px;
     margin: auto;
 }
 .icon2:hover{
@@ -88,28 +88,123 @@ body{
 }
 .icon2>a>i{
     margin: auto;
-    margin-top: 13px;
+    margin-top: 30px;
     font-size: 50px;
     color: green;
 }
 .icon2>a>i:hover{
     color: white;
 }
+#iteamtext{
+    padding-top: 30px;
+}
+.gachngang1{
+    position: absolute;
+    top: 310px;
+    left: 21%;
+    opacity: 0.1;
+    user-select: none;
+}
+.gachngang2{
+    position: absolute;
+    top: 310px;
+    left: 47%;
+    opacity: 0.1;
+    user-select: none;
+}
+.gachngang3{
+    position: absolute;
+    top: 310px;
+    right: 21%;
+    opacity: 0.1;
+    user-select: none;
+}
+.gachngang4{
+    position: absolute;
+    top: 320px;
+    right: 45%;
+    opacity: 0.1;
+    user-select: none;
+}
+.gachngang5{
+    position: absolute;
+    top: 560px;
+    right: 45%;
+    opacity: 0.1;
+    user-select: none;
+}
 
+.container-image-grid {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.container-image {
+    margin-top: 100px;
+}
+.map {
+    width: 50%; 
+    height: 550px;
+    position: absolute;
+    left: 25%;
+}
+.map1 {
+    position: absolute;
+    left: 40%;
+    top: 848px;
+}
+.map-full {
+    width: 100%; 
+    height: 550px;
+    margin-top: 100px;
+}
+.full-width-image{
+    width: 100%; 
+    height: 550px;
+}
+.full-width-image1{
+    width: 100%; 
+    height: 550px;
+}
 
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 3600px){
     body{
         width: 100%;
     }
     .mobile-show{
         display: none;
     }
+    .mobile-hide-gach{
+        display: block;
+    }
+    .mobile-show-gach{
+        display: none;
+    }
+    .img-hide{
+        display: none;
+    }
+    .img-moblie-hide{
+        display: none;
+    }
 }
+
 @media screen and (max-width: 1200px){
     body{
         width: 100%;
     }
     .mobile-show{
+        display: none;
+    }
+    .mobile-hide-gach{
+        display: none;
+    }
+    .mobile-show-gach{
+        display: block;
+    }
+    .img-hide{
+        display: none;
+    }
+    .img-moblie-hide{
         display: none;
     }
 }
@@ -120,6 +215,19 @@ body{
     .mobile-show{
         display: none;
     }
+    .mobile-show-gach{
+        display: none;
+    }
+    .img-show{
+        display: none;
+    }
+    .img-hide{
+        display: block;
+    }
+    .img-moblie-hide{
+        display: none;
+    }
+
 }
 @media screen and (max-width: 768px){
     body{
@@ -136,4 +244,14 @@ body{
     .mobile-show{
         display: block;
     }
+    .img-show{
+        display: none;
+    }
+    .img-hide{
+        display: none;
+    }
+    .img-moblie-hide{
+        display: block;
+    }
+    
 }
