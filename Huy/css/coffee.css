@@ -1,13 +1,16 @@
 body {
     margin: 0;
     padding: 0;
+
+}
+main{
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     height: auto;
 }
-
 .container {
     width: 60%;
     padding: 20px;
@@ -41,14 +44,17 @@ body {
     height: auto; /* Giữ tỷ lệ khích thước của logo */
 }
 .text-left{
-    position: absolute;
-    top: 155px;
-    left: 40px;
+    /* position: relative;
+    top: 150px;
+    left: 40px; */
+    padding: 150px 50px 50px 20px;
 }
 .text-right{
-    position: absolute;
+    /* position: absolute;
     top: 155px;
-    right: 850px;
+    right: 850px; */
+    padding: 160px 50px 50px 20px;
+
 }
 
 .menu {
