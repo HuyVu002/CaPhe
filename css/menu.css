@@ -69,15 +69,17 @@ main .menu {
     box-sizing: border-box;
 }
 
-main .box2 {
+main .box2,
+main .box1 {
+    max-width: 1300px;
     width: 100%;
     display: grid;
-    max-width: 1300px;
-    grid-template-columns: repeat(auto-fit,minmax(380px,1fr));
+    
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2vh;
 }
 
 main .box {
-    width: 100%;
     background-color: #fefefe;
     padding: 10px;
     margin-bottom: 10px;
