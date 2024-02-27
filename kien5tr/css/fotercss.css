@@ -37,13 +37,16 @@ footer .container{
 }
 
 footer .container .mot{
-  
+    
     border-bottom: 1px solid rgba(87, 53, 41, 0.726);
-    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
     gap: 2rem;
+   
+  
 }
 footer .container .iteam{
     align-items: center;
@@ -52,7 +55,8 @@ footer .container .iteam{
   
 }
 footer .container .iteam .iteamicon{
-    
+    display: flex;
+    align-items: center;
     color: rgb(188, 152, 115);
     border: 1px solid rgb(255, 255, 255) ;
     font-size:20px;
@@ -62,10 +66,8 @@ footer .container .iteam .iteamicon{
     
 }
 footer .container .iteam .iteamicon>p{
-    margin: 0;
-    margin-top: 15px;
-    margin-left: 16px
     
+    margin: auto;
  
   
 }
