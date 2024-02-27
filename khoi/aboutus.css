@@ -1,0 +1,297 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+}
+main {
+    padding: 20px;
+  }
+.container{
+  display: block;
+  text-align: left;
+  width: 1290px;
+  margin-left: 306px;
+  margin-right: 306px;
+}
+.abouttong{
+  display: block;
+  position: absolute;
+  width: 838px;
+}
+.about{
+  display: block;
+  text-align: left;
+  width: 817px;
+  height: 27px;
+  margin-top: 80px;
+  margin-bottom: 27px;
+}
+img{
+  width: 96%;
+}
+.text{
+  color: #ffffff;
+  position: absolute;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 90px;
+  margin-left: 235px;
+  margin-bottom: 20px;
+}
+.about2{
+  position: absolute;
+  width: 35%;
+  margin-left: 840px;
+  margin-top: 140px;
+}
+.text2{
+  color: #ffffff;
+  position: absolute;
+  text-align: left;
+  font-size: 22px;
+  margin-top: 90px;
+  margin-left: 90px;
+}
+.ht{
+  display: block;
+  margin-top: 110px;
+  text-align: center;
+  color: rgb(46, 146, 46);
+  font-size: 12px;
+  font-weight: 400;
+}
+.ht2{
+  color: #4b371c;
+  text-align: left;
+  line-height: 1.5;
+  font-size: 18px;
+}
+.text3{
+  display: block;
+  position: absolute;
+  margin-left: 530px;
+  font-weight: 400;
+}
+.on{
+  display: block;
+  width: 818.5px;
+  padding: 10px;
+  position: absolute;
+}
+.on1{
+ display: block;
+ width: 184.65px;
+ padding: 10px; 
+ margin-top: 20px;
+ position: absolute;
+}
+.cafe{
+  width: 75px; height: 62px; box-shadow: 0 0 3px black; text-align: center; font-size: 30px;
+  color: #4b371c;
+}
+.on2{
+  display: block;
+  width: 184.65px;
+  padding: 10px; 
+  margin-top: 20px;
+  margin-left: 250px;
+  position: absolute;
+}
+.on3{
+  display: block;
+  width: 184.65px;
+  padding: 10px; 
+  margin-top: 20px;
+  margin-left: 500px;
+  position: absolute
+}
+.on4{
+  display: block;
+  width: 184.65px;
+  padding: 10px; 
+  margin-top: 20px;
+  margin-left: 750px;
+  position: absolute;
+}
+.text4{
+  width: 184px; text-align: left; line-height: 1.4;
+}
+.text5{
+  display: block;
+  position: absolute;
+  color: white;
+  width: 150px;
+  padding: 10px;
+  margin-top: 300px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.4;
+}
+.text6{
+  display: block;
+  position: absolute;
+  color: white;
+  width: 150px;
+  padding: 10px;
+  margin-top: 300px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.4;
+}
+.text7{
+  display: block;
+  position: absolute;
+  color: white;
+  width: 150px;
+  padding: 10px;
+  margin-top: 300px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+.dbiet{
+  display: block;
+  position: absolute;
+  width: 818.5px;
+}
+.dbiet1{
+  display: block;
+  width: 185.5px;
+  padding: 10px;
+  margin-left: 30px;
+  position: absolute;
+}
+.dbiet2{
+  display: block;
+  width: 185.5px;
+  padding: 10px;
+  margin-left: 220px;
+  position: absolute;
+}
+.dbiet3{
+  display: block;
+  width: 185.5px;
+  padding: 10px;
+  margin-left: 400px;
+  position: absolute;
+}
+.dbiet4{
+  display: block;
+  width: 185.5px;
+  padding: 10px;
+  margin-left: 580px;
+  position: absolute;
+}
+.text5:hover{
+  color: #4b371c;
+}
+.text6:hover{
+  color: rgb(32, 136, 32);
+}
+.tongquan{
+  display: block;
+  width: 818.5px;
+  position: absolute;
+}
+.tq1{
+ display: block;
+ margin-top: 120px;
+ margin-left: 400px; 
+ position: absolute;
+ width: 200px;
+}
+.tq2{
+  display: block;
+  margin-top: 105px;
+  margin-left: 650px; 
+  position: absolute;
+  width: 200px;
+ }
+ .tq3{
+  display: block;
+  margin-top: 400px;
+  margin-left: 400px; 
+  position: absolute;
+  width: 200px;
+ }
+ .tq4{
+  display: block;
+  margin-top: 420px;
+  margin-left: 650px; 
+  position: absolute;
+  width: 200px;
+ }
+
+.text8{
+  color: #4b371c;
+  font-size: 22px;
+  line-height: 1.5;
+}
+.text9{
+  color: #4b371c;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+  width: 170px;
+}
+.fb{
+  display: block;
+  width: 32px;
+  position: absolute;
+  height: 32px;
+  border: solid 1.5px #7c603a;
+  margin-left: 680px;
+  margin-top: 10px;
+}
+.twt{
+  display: block;
+  width: 32px;
+  position: absolute;
+  height: 32px;
+  border: solid 1.5px #7c603a;
+  margin-left: 730px;
+  margin-top: 10px;
+}
+.yt{
+  display: block;
+  width: 32px;
+  position: absolute;
+  height: 32px;
+  border: solid 1.5px #7c603a;
+  margin-left: 780px;
+  margin-top: 10px;
+}
+.ig{
+  display: block;
+  width: 32px;
+  position: absolute;
+  height: 32px;
+  border: solid 1.5px #7c603a;
+  margin-left: 830px;
+  margin-top: 10px;
+}
+.fb:hover{
+  background-color: #7c603a;
+  .text10{
+    color: white;
+  }
+}
+.twt:hover{
+  background-color: #7c603a;
+  .text10{
+    color: white;
+  }
+}
+.yt:hover{
+  background-color: #7c603a;
+  .text10{
+    color: white;
+  }
+}
+.ig:hover{
+  background-color: #7c603a;
+  .text10{
+    color: white;
+  }
+}
