@@ -18,13 +18,104 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"  />
     <!-- end -->
+     <!-- header -->
+     <link rel="stylesheet" href="css/hearder.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+     <!-- header -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+     <!-- fontheder2 -->
+     <!-- footer  -->
+     <link rel="stylesheet" href="css/fotercss.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"  />
+     <!-- footer  -->
 </head>
 <body>
-    <header class="section header">
-        <div class="container">
-            Header
+     <!-- header -->
+     <header class="section header">
+        <div class="mobi" id="mobie">
+            <ul>
+                <i style="float: right; font-size: 30px; padding-right: 10px;" onclick="sextoy()" class="fa-solid fa-x" ></i>
+                <img style="width: 90%; " src="image/xofa-black.png"/>
+                <li><a href="" id="linksex" style="font-weight: 700; color: rgb(155, 90, 5);" >TRANG CHỦ</a></li>
+                <li><a href="" id="linksex">Về XOFA</a></li>
+                <li><a href="" id="linksex">MENU</a></li>
+                <li><a href="" id="linksex">FAQ</a></li>
+                <li><a href="" id="linksex">LIÊN HỆ</a></li>
+                <li><a href="" id="linksex">ENLISH</a></li>
+            </ul>
+
         </div>
+        <div class="daubuoi">
+            <button type="button" onclick="sextoy()" class="button" ><i class="fa-solid fa-bars"></i></button>
+            <img style="width: 230px; " src="/image/icon.png"/>
+        </div>
+
+       <div class="container">
+            <div class="iteam1" ><img style="width: 230px;  " src="/image/icon.png"/></div>
+            <div class="iteam2">
+                <ul id="menu">
+                    <li><a href="" id="link" style="color: rgb(173, 106, 11); font-weight: 500;">TRANG CHỦ</a></li>
+                    <li><a href="" id="link">Về XOFA</a></li>
+                    <li><a href="" id="link">MENU</a></li>
+                    <li><a href="" id="link">FAQ</a></li>
+                    <li><a href="" id="link">LIÊN HỆ</a></li>
+                    <li><a href="" id="link">ENLISH</a></li>
+                </ul>
+            </div>
+            <div class="iteam3">
+                <div id="mot"><i  class="fa-solid fa-phone"></i></div>
+                <div id="hai">
+                    <p><b>HAVE ANY QUESTIONS?</b></p>
+                    <p style="margin-top: 5px;"><i  >024 3717 1555</i></p>
+                    
+                </div>
+                
+                
+                
+
+            </div>
+        </div>
+        <div class="contrainer1">
+           <div class="mot" >
+                <p style="font-weight: 400; font-size: 20px;"  > XOFA CAFÉ & BISTRO</p><br>
+                <p style="font-size: 45px; padding-right: 20px;"><b>KHUNG CẢNH BÌNH YÊN <br> GÓC SÂN CHÌM ĐẮM NẮNG VÀNG</b></p>
+                <p style="margin-top: 20px;">Tại một góc nhỏ yên tĩnh bên khung cửa sổ, bạn được đánh thức bằng hương cà phê ấm nồng, vươn mình đón những tia nắng cuối <br> hè cùng làn gió thu khoan khoái, chào đón một ngày mới bình yên!
+                    Hãy thử dành một buổi sáng sớm đầu thu tại Xofa và cảm nhận nhé!</p>
+                <div class="butonheaer">
+                    <button id="nutbam1" style="width:140px ;"  type="button">XEM MENU</button>
+                    <button id="nutbam2" style="border: 1px solid rgb(188, 152, 115);"  type="button">LIÊN HỆ NGAY </button>
+                </div>
+           </div>
+           <div class="hai" >
+                    <p class="ditmewibi" ><b>XOFA CAFÉ & BISTRO</b></p>
+           </div>
+           
+        </div>
+
     </header>
+    <script>
+      
+        
+        function sextoy(){
+            var a = document.getElementById("mobie")
+            if(a.classList.contains("sangtran")){
+                a.classList.remove("sangtran")
+          
+            }else{
+                a.classList.add("sangtran")
+            
+            }
+        }
+    </script>
+    <!-- header -->
     <nav class="section_nav mobile-hide">
         <div><a href="#" class="blur-text">CONTACT</a></div> 
         <span><a href="#" class="overlay-text-up">LIÊN HỆ VỚI CHÚNG TÔI</a></span> 
