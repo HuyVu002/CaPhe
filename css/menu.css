@@ -1,27 +1,31 @@
 body {
     margin: 0;
     padding: 0;
-
 }
 main{
+    width:1300px;
+    margin:auto;
     margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: 100vh; */
     height: auto;
 }
-.container {
-    width: 60%;
+main .container {
+    width: 100%;
+    margin:auto;
     padding: 20px;
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    box-sizing: border-box;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    /* box-sizing: border-box; */
 }
-
-.box1 {
+main img{
+    width:90%;
+}
+main .container .box1 {
     width: 100%;
     margin-bottom:10px;
     background-image: url('https://www.shutterstock.com/image-photo/warm-cup-coffee-on-brown-600nw-71579551.jpg'); /* Thay 'link_to_your_image.jpg' bằng đường link đến ảnh của bạn */
@@ -35,7 +39,7 @@ main{
     justify-content: space-between;
     position: relative; /* Cho phép sử dụng position: absolute cho .logo */
 }
-.logo {
+main .logo {
     position: absolute;
     transform: rotate(-40deg) translateX(50%);
     top: -40px;
@@ -43,13 +47,13 @@ main{
     width: 200px; /* Điều chỉnh kích thước của logo theo ý muốn */
     height: auto; /* Giữ tỷ lệ khích thước của logo */
 }
-.text-left{
+main .text-left{
     /* position: relative;
     top: 150px;
     left: 40px; */
     padding: 150px 50px 50px 20px;
 }
-.text-right{
+main .text-right{
     /* position: absolute;
     top: 155px;
     right: 850px; */
@@ -57,7 +61,7 @@ main{
 
 }
 
-.menu {
+main .menu {
     width: 48%; /* 50% - 2% margin for spacing */
     /* background-color: #ededed; */
     /* padding: 10px; */
@@ -65,20 +69,21 @@ main{
     box-sizing: border-box;
 }
 
-.box2 {
+main .box2 {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    max-width: 1300px;
+    grid-template-columns: repeat(auto-fit,minmax(380px,1fr));
 }
 
-.box {
-    width: 48%; /* 50% - 2% margin for spacing */
+main .box {
+    width: 100%;
     background-color: #fefefe;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
 }
-.coffee-item {
+main .coffee-item {
     margin:8px ;
     display: flex;
     justify-content: space-between;
@@ -86,11 +91,11 @@ main{
     padding: 10px 0;
     border-bottom: 1px dashed #ccc;
 }
-.coffee-name {
+main .coffee-name {
     font-weight: bold;
 }
 
-.price {
+main .price {
     color: #9b7a54;
     font-weight: 700;
 }
