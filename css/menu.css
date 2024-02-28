@@ -1,45 +1,119 @@
-body {
-    margin: 0;
-    padding: 0;
+.container2 {
+    font-family:'Times New Roman', Times, serif, sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-bottom: 10px;
 }
-main{
-    width:1300px;
-    margin:auto;
+
+.container2 .box1{
+
+    width: 100%;
+    max-width: 1300px;
+    display: grid;
+    margin: auto;
     margin-top: 100px;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* height: 100vh; */
-    height: auto;
+    margin-bottom: 30px;
+    grid-template-columns: repeat(auto-fit ,minmax(400px,1fr));
+    gap: 2vh;
+    padding: 0 10px;
+
 }
-main .container {
+.container2 .box1 .left{
+    background-image: linear-gradient(45deg, rgba(42, 35, 6, 0.5), rgba(157, 157, 167, 0.5)), url(https://www.shutterstock.com/image-photo/warm-cup-coffee-on-brown-600nw-71579551.jpg) ;
+    background-size: cover;
     width: 100%;
-    margin:auto;
-    padding: 20px;
-    border-radius: 10px;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: space-between; */
-    /* box-sizing: border-box; */
-}
-main img{
-    width:90%;
-}
-main .container .box1 {
-    width: 100%;
-    margin-bottom:10px;
-    background-image: url('https://www.shutterstock.com/image-photo/warm-cup-coffee-on-brown-600nw-71579551.jpg'); /* Thay 'link_to_your_image.jpg' bằng đường link đến ảnh của bạn */
-    background-size: 50% 100%;
-    background-repeat: no-repeat;
-    background-position: left center;
-    color: #141414; 
-    padding: 10px;
-    border-radius: 5px;
     display: flex;
     justify-content: space-between;
-    position: relative; /* Cho phép sử dụng position: absolute cho .logo */
+    position: relative;
+    
 }
-main .logo {
+
+.container2 .box1 .left>p{
+    /* margin-top: auto; */
+    margin: auto;
+    color: rgb(42, 27, 5);
+    position: relative;
+    padding: 10px 10px;
+    font-size: 20px;
+}
+.container2 .box1 .right {
+    position: relative;
+}
+.container2 .box1 .right .menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    align-items: center;
+    border-bottom: 1px dashed #ccc;
+}
+
+.container2 .box1 .right .menu #name{
+    color: rgb(64, 34, 24);
+    font-size: 15px;
+    padding-right: 5px;
+}
+.container2 .box1 .right .menu #price{
+    color: rgb(203, 152, 115);
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 10px;
+    
+}
+.container2 .box1 .right .menu #price span{
+    font-weight:500;
+    font-size:smaller;
+      
+}
+
+.container2 .box1 .right .HideMenu{
+    position: absolute;
+    font-size: 200px;
+    color: rgb(246, 246, 246);
+    z-index: -1;
+    top: -100px;
+}
+
+
+/*  */
+.container2 .box2{
+
+    width: 100%;
+    max-width: 1300px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(auto-fit ,minmax(400px,1fr));
+    gap: 2vh;
+    padding: 0 10px;
+}
+.container2 .box2 .left .menu,
+.container2 .box2 .right .menu{ 
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    align-items: center;
+    border-bottom: 1px dashed #ccc;
+}
+.container2 .box2 .left .menu #name,
+.container2 .box2 .right .menu #name{ 
+    color: rgb(64, 34, 24);
+    font-size: 15px;
+    padding-right: 10px;
+}
+.container2 .box2 .left .menu #price,
+.container2 .box2 .right .menu #price{ 
+    color: rgb(203, 152, 115);
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.container2 .box2 .left .menu #price>span,
+.container2 .box2 .right .menu #price>span{ 
+    font-weight:500;
+    font-size:smaller;
+}
+
+
+.container2 .logo {
     position: absolute;
     transform: rotate(-40deg) translateX(50%);
     top: -40px;
@@ -47,58 +121,49 @@ main .logo {
     width: 200px; /* Điều chỉnh kích thước của logo theo ý muốn */
     height: auto; /* Giữ tỷ lệ khích thước của logo */
 }
-main .text-left{
-    /* position: relative;
-    top: 150px;
-    left: 40px; */
-    padding: 150px 50px 50px 20px;
-}
-main .text-right{
-    /* position: absolute;
-    top: 155px;
-    right: 850px; */
-    padding: 160px 50px 50px 20px;
-
-}
-
-main .menu {
-    width: 48%; /* 50% - 2% margin for spacing */
-    /* background-color: #ededed; */
-    /* padding: 10px; */
-    border-radius: 5px;
-    box-sizing: border-box;
-}
-
-main .box2,
-main .box1 {
-    max-width: 1300px;
-    width: 100%;
-    display: grid;
-    
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2vh;
-}
-
-main .box {
-    background-color: #fefefe;
-    padding: 10px;
+.container2 hr{
+    width:1300px;
+    margin:auto;
     margin-bottom: 10px;
-    border-radius: 5px;
+    border-style:1px dashed;
+    color: gray;
 }
-main .coffee-item {
-    margin:8px ;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
-    border-bottom: 1px dashed #ccc;
+@media screen and (max-width: 900px){
+    /* body{
+        background-color: blue;
+    } */
+    /* khi nào màn hình có width dưới 1200px thì lệnh trong media này sẽ tác động lên screen đó  */
+    .container2 span{
+        font-size:xx-small;
+    }
+    img{
+        width: 95%;
+    }
+    h1{
+        font-size: larger;
+        margin: 5px;
+    }
+    .container2 .logo {
+        display: none;
+    }
+    .container2 .box1 .left{
+        width: 93%;
+        height: 480px;   
+    }
+    .container2 .box1 .left p{
+        font-size: x-large; 
+    }
+    .box1>.right p b{
+        font-size: 30px;
+    }
+    .right #name b{
+        font-size: 15px;
+    }
+    .HideMenu{
+        display: none;
+    }
+    .container2 .box1{
+        margin: 10px;
+        margin-top: 50px;
+    }
 }
-main .coffee-name {
-    font-weight: bold;
-}
-
-main .price {
-    color: #9b7a54;
-    font-weight: 700;
-}
-
