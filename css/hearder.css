@@ -7,18 +7,11 @@
 
 
 header{
-<<<<<<< HEAD
-    
-=======
-    width: 100%;
->>>>>>> b4c695e2fb7dba82e0543f70d5f27c5f29557061
     position: relative;
     background-repeat: no-repeat;
     background-size: 100% ;
     background-image: linear-gradient(0,rgba(64, 34, 24,0.651),rgba(64, 34, 24, 0.651)) ,url(/image/banner.jpg) ;
     min-height: 80vh;
-    
-   
 }
 
 header .mobi{
