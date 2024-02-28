@@ -145,12 +145,12 @@ body{
 .map {
 
     position: absolute;
-    left: auto;
+    left: 33%;
 }
 .map1 {
     position: absolute;
     left: 50%;
-    top: 1468px;
+    top: 1750px;
 }
 .map-full {
     width: 100%; 
