@@ -68,114 +68,69 @@ body{
     font-size: 40px;
 }
 
-.contact_us{
-    text-align: center;
+
+.question{
+    width:  90%;
+    margin-left: 5%;
+    padding-bottom: 100px;
 }
-.icon1{
-    border: 1px solid rgb(158, 106, 9);
-    height: 120px;
-    width: 120px;
-    margin: auto;
+.accordion-item{
+    margin-bottom: 15px;
 }
-.icon1:hover{
-    background-color: rgb(158, 106, 9);
+.accordion-body{
+    margin-left: 10%;
+    margin-right: 5%;
 }
-.icon1>a>i{
-    margin: auto;
-    margin-top: 30px;
-    font-size: 50px;
-    color: rgb(158, 106, 9);
+.accordion-button{
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(158, 106, 9);
+    cursor: pointer;
 }
-.icon1>a>i:hover{
-    color:white
-}
-.icon2{
-    border: 1px solid green;
-    height: 120px;
-    width: 120px;
-    margin: auto;
-}
-.icon2:hover{
-    background-color: green;
-}
-.icon2>a>i{
-    margin: auto;
-    margin-top: 30px;
-    font-size: 50px;
-    color: green;
-}
-.icon2>a>i:hover{
+.clicked {
+    background-color: brown;
     color: white;
 }
+.contact_us{
+    text-align: center;
+    padding-top: 50px;
+}
+.section_main{
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 110vh;
+    background-position: center;
+}
+.icon{
+    height: 120px;
+    width: 120px;
+    margin: auto;
+}
+.doimau1:hover{
+    color:  brown;
+    font-weight: bold;
+}
+.doimau2:hover{
+    color:  green;
+    font-weight: bold;
+}
 #iteamtext{
-    padding-top: 30px;
+    padding-top: 10px;
+    color: white;
+    width: 80%;
+    margin-left: 10%;
 }
-.gachngang1{
-    position: absolute;
-    top: 585px;
-    left: 21%;
-    opacity: 0.1;
-    user-select: none;
+#thua {
+    display: flex;
+    justify-content: space-between;
 }
-.gachngang2{
-    position: absolute;
-    top: 585px;
-    left: 47%;
-    opacity: 0.1;
-    user-select: none;
+#canchinhbar{
+    padding: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
-.gachngang3{
-    position: absolute;
-    top: 585px;
-    right: 21%;
-    opacity: 0.1;
-    user-select: none;
-}
-.gachngang4{
-    position: absolute;
-    top: 580px;
-    right: 45%;
-    opacity: 0.1;
-    user-select: none;
-}
-.gachngang5{
-    position: absolute;
-    top: 840px;
-    right: 45%;
-    opacity: 0.1;
-    user-select: none;
-}
-
-.container-image-grid {
-    margin-top: 100px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-.container-image {
-    margin-top: 100px;
-}
-.map {
-    height: 550px;
-    position: absolute;
-    left: 33%;
-}
-.map1 {
-    position: absolute;
-    left: 50%;
-    top: 1750px;
-}
-.map-full {
-    width: 100%; 
-    height: 550px;
-    margin-top: 100px;
-}
-.full-width-image{
-    width: 100%; 
-    height: 550px;
-}
-.full-width-image1{
-    width: 100%; 
-    height: 550px;
+.story{
+    padding-bottom: 50px;
 }
 
 @media screen and (max-width: 3600px){
