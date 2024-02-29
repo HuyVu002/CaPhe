@@ -51,8 +51,8 @@
                 <img style="width: 90%; " src="image/xofa-black.png"/>
                 <li><a href="index.html" id="linksex" style="font-weight: 700; color: rgb(155, 90, 5);" >TRANG CHỦ</a></li>
                 <li><a href="aboutus.html" id="linksex">Về XOFA</a></li>
-                <li><a href="" id="linksex">MENU</a></li>
-                <li><a href="" id="linksex">FAQ</a></li>
+                <li><a href="menu.html" id="linksex">MENU</a></li>
+                <li><a href="FAQ.html" id="linksex">FAQ</a></li>
                 <li><a href="contact_us.html" id="linksex">contact</a></li>
                 <li><a href="" id="linksex">ENLISH</a></li>
             </ul>
@@ -67,10 +67,10 @@
             <div class="iteam1" ><img style="width: 230px;  " src="/image/icon.png"/></div>
             <div class="iteam2">
                 <ul id="menu">
-                    <li><a href="" id="link" style="color: rgb(173, 106, 11); font-weight: 500;">TRANG CHỦ</a></li>
-                    <li><a href="" id="link">Về XOFA</a></li>
-                    <li><a href="/menu.html" id="link">MENU</a></li>
-                    <li><a href="" id="link">FAQ</a></li>
+                    <li><a href="index.html" id="link" style="color: rgb(173, 106, 11); font-weight: 500;">TRANG CHỦ</a></li>
+                    <li><a href="aboutus.html" id="link">Về XOFA</a></li>
+                    <li><a href="menu.html" id="link">MENU</a></li>
+                    <li><a href="FAQ.html" id="link">FAQ</a></li>
                     <li><a href="contact_us.html" id="link">LIÊN HỆ</a></li>
                     <li><a href="" id="link">ENLISH</a></li>
                 </ul>
@@ -95,8 +95,8 @@
                 <p style="margin-top: 20px;">Tại một góc nhỏ yên tĩnh bên khung cửa sổ, bạn được đánh thức bằng hương cà phê ấm nồng, vươn mình đón những tia nắng cuối <br> hè cùng làn gió thu khoan khoái, chào đón một ngày mới bình yên!
                     Hãy thử dành một buổi sáng sớm đầu thu tại Xofa và cảm nhận nhé!</p>
                 <div class="butonheaer">
-                    <button id="nutbam1" style="width:140px ;"  type="button">XEM MENU</button>
-                    <button id="nutbam2" style="border: 1px solid rgb(188, 152, 115);"  type="button">LIÊN HỆ NGAY </button>
+                    <button id="nutbam1" style="width:140px ; cursor: pointer;"  type="button" onclick="window.location.href='menu.html'">XEM MENU</button>
+                    <button id="nutbam2" style="border: 1px solid rgb(188, 152, 115);cursor: pointer;"  type="button" onclick="window.location.href='contact_us.html'">LIÊN HỆ NGAY </button>
                 </div>
            </div>
            <div class="hai" >
@@ -241,25 +241,25 @@
                         <img src="image/cafetraitim.jpg"/>
                         <p id="tensp" >ESPRESSO BAR</p>
                         <p id="iteamnguyenlieu">Sử dụng nguyên liệu thượng hạng, cà phê rang mộc nguyên chất 100% vị đậm, hậu ngọt, thơm dịu</p>
-                        <button id="xanh"  type="button">XEM MENU</button>
+                        <button id="xanh"  type="button"  onclick="window.location.href='menu.html'">XEM MENU</button>
                     </div>
                     <div class="iteam">
                         <img src="image/aa.png" />
                         <p id="tensp">CAFE VIỆT NAM</p>
                         <p id="iteamnguyenlieu">Tuyển chọn những vị cafe mang nét đặc trưng của hương vị cafe truyền thống Việt Nam</p>
-                        <button id="vang" type="button">XEM MENU</button>
+                        <button id="vang" type="button"  onclick="window.location.href='menu.html'">XEM MENU</button>
                     </div>
                     <div class="iteam">
                         <img src="image/tra.jpg" />
                         <p id="tensp">TRÀ</p>
                         <p id="iteamnguyenlieu">Nhiều hương vị trà có mùi thơm ngọt, đậm vị thanh, ngọt hậu, vô cùng đặc biệt<br>.</p>
-                        <button id="xanh"  type="button">XEM MENU</button>
+                        <button id="xanh"  type="button"  onclick="window.location.href='menu.html'">XEM MENU</button>
                     </div>
                     <div class="iteam">
                         <img src="image/xofadacbiet.jpg" />
                         <p id="tensp">XOFA ĐẶC BIỆT</p>
                         <p id="iteamnguyenlieu">Sử dụng thành phần tự nhiên, nguyên liệu tươi ngon để mix lên những món tuyệt phẩm bởi Xofa</p>
-                        <button id="vang" type="button">XEM MENU</button>
+                        <button id="vang" type="button"  onclick="window.location.href='menu.html'">XEM MENU</button>
                     </div>
                 </div>
             </div>
@@ -458,7 +458,7 @@
 
                     </div>
                 </div>
-                <button type="button">LIÊN HỆ NGAY <i  style="padding-left: 10px;" class="fa-solid fa-comment-dots"></i></button>
+                <button type="button"  style="cursor: pointer;" onclick="window.location.href='contact_us.html'">LIÊN HỆ NGAY <i  style="padding-left: 10px;" class="fa-solid fa-comment-dots"></i></button>
 
             </div>
         </div>
@@ -589,9 +589,9 @@
                 <div class="haiiteam3">
                     <p id="dau"><b>GIỚI THIỆU</b></p>
                     <ul>
-                        <li><i class="fa-solid fa-arrow-right"></i><a id="linksex" href="">Về chúng tôi</a></li>
-                        <li><i class="fa-solid fa-arrow-right"></i><a id="linksex" href="">Liên hệ</a></li>
-                        <li><i class="fa-solid fa-arrow-right"></i><a id="linksex" href="">Câu hỏi thường gặp</a></li>
+                        <li><i class="fa-solid fa-arrow-right"></i><a id="linksex" href="aboutus.html">Về chúng tôi</a></li>
+                        <li><i class="fa-solid fa-arrow-right"></i><a id="linksex" href="contact_us.html">Liên hệ</a></li>
+                        <li><i class="fa-solid fa-arrow-right"></i><a id="linksex" href="FAQ.html">Câu hỏi thường gặp</a></li>
                         <li><i class="fa-solid fa-arrow-right"></i><a id="linksex" href="">Đội ngũ </a></li>
                         <li><i class="fa-solid fa-arrow-right"></i><a id="linksex" href="">Tuyển dụng</a></li>
                         <li><i class="fa-solid fa-arrow-right"></i><a id="linksex" href="">Thông tin</a></li>
