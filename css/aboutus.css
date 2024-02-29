@@ -1,16 +1,16 @@
 body{
   font-family: Arial, Helvetica, sans-serif;
-  position: absolute;
 }
 main {
     padding: 20px;
   }
-.container{
+.container3{
   display: block;
   text-align: left;
   width: 1290px;
   margin-left: 306px;
   margin-right: 306px;
+  margin-top: 300px;
 }
 .abouttong{
   display: block;
@@ -153,7 +153,7 @@ img{
 .dbiet{
   display: block;
   position: absolute;
-  width: 818.5px;
+  width: 700.5px;
 }
 .dbiet1{
   display: block;
@@ -294,4 +294,29 @@ img{
   .text10{
     color: white;
   }
+}
+.text13:hover{
+  color: #4b371c;
+}
+.text14:hover{
+  color: rgb(56, 173, 56);
+}
+.text13{
+  line-height: 1.5;
+  font-weight: 700;
+  text-align: center;
+}
+.text14{
+  line-height: 1.5;
+  font-weight: 700;
+  text-align: center;
+}
+.text15{
+  line-height: 1.4;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20px;
+}
+@media screen {
+  
 }
