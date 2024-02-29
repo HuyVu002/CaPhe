@@ -1,3 +1,6 @@
+
+
+
 .container2 {
     font-family:'Times New Roman', Times, serif, sans-serif;
     font-optical-sizing: auto;
@@ -164,4 +167,24 @@
     .container2 #price{
         margin-right: 12px;
     }
+}
+
+
+.section_nav{
+    
+    
+    text-align: center;
+    
+}
+header .Lienhe{
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
+header .sup{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
 }

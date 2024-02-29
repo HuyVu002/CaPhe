@@ -320,3 +320,27 @@ img{
 @media screen {
   
 }
+
+.section_nav{
+    
+  margin-top: 60px;
+  text-align: center;
+  
+}
+header .Lienhe{
+  color: white;
+  font-size: 50px;
+  text-decoration: none;
+  font-weight: bold;
+}
+header .sup{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+header .iteam3 p{
+  margin: 0;
+  
+  
+}
