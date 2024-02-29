@@ -87,7 +87,7 @@ header .container>div>ul>li{
 }
 header .container>div>ul>li>a:hover{
     transition-duration: 0.5s;
-   color: rgb(188, 152, 113);
+    color: rgb(188, 152, 113);
 }
 header .container>div>ul>li>a{
     text-decoration: none;
@@ -118,17 +118,30 @@ header .container .iteam3 #hai{
 
  
 }
+.contrainer1{
+    width: 500px;
+    margin: auto; 
+    display: flex;
+    position: relative;
+}
+.contrainer1 .top{
+    position: absolute;
+    top:100px;
+    left: 40%;
+}
+.contrainer1 .bottom{
+    position: absolute;
+    top:180px;
+    left: 40%;
+    display: flex;
+}
 
 @media screen and (max-width: 1366px) {
   
  
     header{
         background-size: 201vh;
-        min-height: 80vh;
-      
-       
-        
-       
+        min-height: 100vh;
     }
     header .container{
         font-family: "Roboto", sans-serif;
@@ -197,38 +210,25 @@ header .container .iteam3 #hai{
 @media screen and (max-width: 844px) {
     header {
         background-size: 201vh;
-        min-height: 85vh;
-      
-
+        min-height: 100vh;
     }
     header .container{
         display: none;
-      
-
     }
    
    
     header .mobi{
         display: none;
-        
-    
-    
-    
     }
     
     header .sangtran{
         display: block;
-        z-index: 1;
-     
-   
-        
+        z-index: 1;    
     }
   
     header .daubuoi{
         display: block;
         border-bottom: 1px solid rgba(207, 207, 207, 0.664);
-      
-    
    }
    header .daubuoi>.button{
         background-color: rgba(255, 255, 255, 0);
@@ -237,12 +237,7 @@ header .container .iteam3 #hai{
         margin-top: 5%;
         font-size: 30px;
         margin-right: 20px;
-        
-
-  
-
-    }
-   
+    } 
 }
 
 /* phần dưới của header */
